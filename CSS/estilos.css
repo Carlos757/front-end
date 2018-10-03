@@ -1,0 +1,37 @@
+body{
+	background: rgba(0,0,0,0.9);
+	color: black;
+	max-width: 1024px
+	margin: auto auto;
+}
+header{
+	background: rgba(200,200,200,50);
+	border-radius: 10px;
+	color: white;
+	border-style: groove;
+	text-align: center;
+	padding: 20px 0px 0px 0px;
+}
+header img{
+	width: 100px;
+	/*padding: 100px;
+	margin: 10px;*/
+	
+
+}
+header nav ul li{
+	background: gray;
+	border-radius: 10px;
+	border-style: groove;
+	box-shadow: 5px 5px rgba(0,0,0,0.7);
+	display: inline-block; /*quita el ancho de los li */
+	margin: 0px 10px;
+	padding: 5PX;
+	width: 118px
+
+}
+header nav ul li:hover{
+	background: black;
+	box-shadow: 5px 5px gray;
+	color: green;
+}
