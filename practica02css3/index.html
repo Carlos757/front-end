@@ -3,12 +3,13 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Practica 02 CSS3 + HTML5</title>
+	<link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
 	<header>
 		<img src="img/banner.png" alt="Banner">
-		<img src="img/granthams.png" alt="Logo">
-		<img src="img/paint.png" alt="Paint">
+		<img src="img/granthams.png" id="Logo" alt="Logo">
+		<img src="img/paint.png" id="Paint" alt="Paint">
 		<input type="search" placeholder ="Search">
 		<nav>
 			<ul>
@@ -21,12 +22,12 @@
 		</nav>
 	</header>
 
-	<section>
-		<article>
+	<section id="primerSeccion">
+		<article id="secc01art01">
 			<img src="img/slide.jpg" alt="">
 		</article>
-		<article>
-			<span>We can offer...</span><!-- span si se va dar formato -->
+		<article id="secc02art02">
+			<span class="colorrosa letragrande nito">We can offer...</span><!-- span si se va dar formato -->
 			<ul>
 				<li>Highly Competitive Prices</li>
 				<li>Variable Data</li>
@@ -38,45 +39,57 @@
 				<li>Great Customer Service</li>
 			</ul>
 		</article>
-		<img src="img/bg_offer.png" alt="Offer">
+		<img src="img/bg_offer.png" alt="Offer" id="bgoffer">
 	</section>
 
-	<section>
+	<section id="segundaSeccion">
 		<article>
-			<span>01772 250207</span>
+			<span class="colorrosa letramediana nito">01772 250207</span>
 		</article>
 	</section>
 
-	<section>
+	<section id="terceraSeccion">
 		<article>
 			<img src="img/cerdito.png" alt="cerdito">
-			<span>Save this Spring</span><br>
+			<span class="colorrosa letracomun nito">
+				Save this Spring
+			</span><br>
 			Fabulous discounts on canva's and roll
 			up's as well as many other offers.
 			<p></p>
-			<span>Find Out More...</span>		
+			<span class="colorrosa nito">
+				Find Out More...
+			</span>		
 
 		</article>
 		<article>
 			<img src="img/hoja.png" alt="hoja">
-			<span>ECO Friendly</span><br>
+			<span class="colorverde letracomun nito">
+				ECO Friendly
+			</span><br>
 			ECO Friendly Materials used in our production process.
 			Recycled papers and paper from Sustainable Forests(including
 			FSC papers) are avaliable across our range of Printing Services.
 		</article>
 		<article>
 			<img src="img/new.png" alt="new">
-			<span>Upload your file</span><br>
+			<span class="colorazul letracomun nito">
+				Upload your file
+			</span><br>
 			Making it easy to order your printing today. Our upload
 			facility enables you to send your files directly to us.
 			Use the notes section to inform us of your order, then
 			sit back and wait for a member of our team to contact you.
 			<p></p>
-			<span>Upload Your File Now...</span>
+			<span class="colorazul">
+				Upload Your File Now...
+			</span>
 		</article>
 		<article>
-			<span>Stay in touch</span><br>
-			Join our mailing list today.
+			<span class="colorrosa letramediana">
+				Stay in touch
+			</span><br>
+			Join our mailing list today. <br>
 			<input type="email" placeholder="Email goes here">
 			<input type="button" value="send">
 		</article>
