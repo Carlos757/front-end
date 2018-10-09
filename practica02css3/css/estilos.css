@@ -24,11 +24,58 @@ header nav ul li{
 	padding-bottom: 2px;
 
 }
+#bgoffer{
+	position: relative; 
+	top: -410px;
+	left: -30px; 
+}
 #Paint{
 	float: right;
 
 }
+#primerSeccion{
+	/*border: 1px solid blue;*/
+	margin-top: 60px;
+	height: 318px;
+}
+#primerSeccion article{
+	/*border:1px solid red;*/ 
+	display: inline-block;
+	vertical-align: top;
+}
+#secc01art01{
+	width: 61%;
+	margin-left: 30px;
+}
+#secc01art02{
+	width: 30%;
+	margin-left: 50px;
+}
+#secc01art02 ul  {
+	list-style: none; /*quita los puntos(vinetas) */
+}
+#secc01art02 ul li:before: {
+	color: #B28787;
+	content: ". "; /*--------------------------------*/
+
+}
+#segundaSeccion article{
+	text-align: right;
+	padding-right: 130px;
+}
 #Logo{
 	margin-top: 25px;
 	margin-left: 25px;
+}
+.colorrosa{
+	color: #FF0099;	
+}
+.letragrande{
+	font-size: 3.5em;
+}
+.nito{
+	font-weight: bold;
+}
+.letramediana{
+	font-size: 2em;
 }
