@@ -3,19 +3,21 @@ body{
 	/*s*/
 	/*1078 es requerimiento del cliente*/
 	/*border: 1px solid blue;*/
+	max-width: 100%;
 
 
 }
 
 header input{
-	position: relative;
-	bottom: 60px;
-	left: 150px;
+	/*position: relative;*/
+	/*margin-bottom: 60px;*/
+	/*margin-left: 150px;*/
 	/*left: 150px;
 	top: 10px;*/
 	/*float: left;*/
 	/*margin-left: 150px;
 	margin-top: 10px;*/
+	
 
 }
 section {
@@ -23,20 +25,19 @@ section {
 
 
 }
-section article{
+#primerSeccion article{
 	display: inline-block;
 	vertical-align: top;
 	margin-top: 20px;
 	padding: 10px;	
-	width: 17.5%;
+	width: 250px;
 	height: 350px;
 	margin-left: -5px;
+
+
 	/*width: 230px;
 	height: 300px;*/
 	/*padding-left: 50px;*/
-}
-#primerSeccion{
-	/*border: 1px solid blue;*/
 }
 #logo{
 	width: 200px;
@@ -46,7 +47,8 @@ section article{
 #menu{
 	position: relative;
 	/*width:  1024px;*/
-	width: 75%;
+	width: 1525px;
+	height: 80px;
 	left: 190px;
 	margin-bottom: 25px;
 	/*bottom: 25px;*/
@@ -54,11 +56,26 @@ section article{
 	/*margin-top: 10px;*/
 
 }
-#primerSeccion article{
-	/*border:1px solid red;*/ 
-	
-	/*vertical-align: top;*/
+#segundaSeccion {
+	border:1px solid red; 
 }
+#segundaSeccion article{
+	display: inline-block;
+	padding-top: 25px;
+	/*margin-right: 100px;*/
+}
+#newsRojo{
+
+	width: 200px;
+}
+#newsVerde{
+	width: 300px;
+}
+#newsClaro{
+	width: 300px;
+}
+
+
 #secc01art01 ul{
 	list-style: none;
 }
@@ -66,10 +83,7 @@ section article{
 	padding-top: 15px;
 	padding-left: 30px;
 }
-#secc01art01 {
-	/*width: 20%;*/
 
-}
 #secc01art02{
 	/*width: 20%;*/
 	margin-left: 60px;
