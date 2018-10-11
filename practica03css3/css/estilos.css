@@ -1,0 +1,104 @@
+body{
+	font-size: 16px; /*1em*/
+	/*s*/
+	/*1078 es requerimiento del cliente*/
+	/*border: 1px solid blue;*/
+
+
+}
+
+header input{
+	position: relative;
+	bottom: 60px;
+	left: 150px;
+	/*left: 150px;
+	top: 10px;*/
+	/*float: left;*/
+	/*margin-left: 150px;
+	margin-top: 10px;*/
+
+}
+section {
+	background: #2B2B2B;
+
+
+}
+section article{
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 20px;
+	padding: 10px;	
+	width: 17.5%;
+	height: 350px;
+	margin-left: -5px;
+	/*width: 230px;
+	height: 300px;*/
+	/*padding-left: 50px;*/
+}
+#primerSeccion{
+	/*border: 1px solid blue;*/
+}
+#logo{
+	width: 200px;
+	padding-left: 15px;
+	padding-top: 15px;
+}
+#menu{
+	position: relative;
+	/*width:  1024px;*/
+	width: 75%;
+	left: 190px;
+	margin-bottom: 25px;
+	/*bottom: 25px;*/
+	/*top: 20px;*/ 
+	/*margin-top: 10px;*/
+
+}
+#primerSeccion article{
+	/*border:1px solid red;*/ 
+	
+	/*vertical-align: top;*/
+}
+#secc01art01 ul{
+	list-style: none;
+}
+#secc01art01 ul li{
+	padding-top: 15px;
+	padding-left: 30px;
+}
+#secc01art01 {
+	/*width: 20%;*/
+
+}
+#secc01art02{
+	/*width: 20%;*/
+	margin-left: 60px;
+	background: #A6BD53;
+}
+#secc01art03{
+	/*width: 20%;*/
+	background: #515151;
+}
+#secc01art04{
+	/*width: 20%;*/
+	background: #D42D3F ;
+}
+#secc01art05{
+	/*width: 20%;*/
+	background: #E4E4E4 ;
+}
+.letraG{
+	font-size: 2em;
+}
+.nito{
+	font-weight: bold;
+}
+.colorB{
+	color: white;
+}
+.colorG{
+	color: #BCBCBC;
+}
+.colorGG{
+	color: #808080;
+}

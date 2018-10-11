@@ -54,9 +54,9 @@ header nav ul li{
 #secc01art02 ul  {
 	list-style: none; /*quita los puntos(vinetas) */
 }
-#secc01art02 ul li:before: {
+#secc01art02 ul li: before: {
 	color: #B28787;
-	content: ". "; /*--------------------------------*/
+	content: "• "; /*--------------------------------*/
 
 }
 #segundaSeccion article{
