@@ -3,35 +3,32 @@ body{
 	/*s*/
 	/*1078 es requerimiento del cliente*/
 	/*border: 1px solid blue;*/
-	max-width: 100%;
-
-
-}
-
-header input{
-	/*position: relative;*/
-	/*margin-bottom: 60px;*/
-	/*margin-left: 150px;*/
-	/*left: 150px;
-	top: 10px;*/
-	/*float: left;*/
-	/*margin-left: 150px;
-	margin-top: 10px;*/
-	
-
-}
-section {
+	max-width: 2100px;
 	background: #2B2B2B;
 
+}
+header{
+	/*border: 1px solid blue;*/
+	background: white;
+}
+header input{
+	/*border: 1px solid blue;*/
+	position: relative;
+	left: 150px;
+	float: left;
+	top: 10px;
 
+}
+#primerSeccion {
+	margin-bottom: 30px;
 }
 #primerSeccion article{
 	display: inline-block;
 	vertical-align: top;
-	margin-top: 20px;
-	padding: 10px;	
+	margin-top: 30px;
+	padding: 30px 20px;	
 	width: 250px;
-	height: 350px;
+	height: 320px;
 	margin-left: -5px;
 
 
@@ -41,15 +38,16 @@ section {
 }
 #logo{
 	width: 200px;
+	margin-bottom: 10px;
+	margin-top: -30px;
 	padding-left: 15px;
-	padding-top: 15px;
 }
 #menu{
-	position: relative;
+	/*position: relative;*/
 	/*width:  1024px;*/
-	width: 1525px;
-	height: 80px;
-	left: 190px;
+	width: 1150px;
+	/*height: 50px;*/
+	margin-left: 210px;
 	margin-bottom: 25px;
 	/*bottom: 25px;*/
 	/*top: 20px;*/ 
@@ -57,24 +55,57 @@ section {
 
 }
 #segundaSeccion {
-	border:1px solid red; 
+	/*border:1px solid red;*/
+	/*background:  	#3E3E3C; */
 }
 #segundaSeccion article{
 	display: inline-block;
 	padding-top: 25px;
-	/*margin-right: 100px;*/
+	padding-left: 50px;
+	padding-bottom: 25px;
+
+}
+#terceraSeccion{
+	/*background: #3E3E3C;*/
+}
+#terceraSeccion article{
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 10px;
+	padding-top: 25px;
+	padding-left: 200px;
+	padding-bottom: 25px;
+	width: 300px;
+}
+#terceraSeccion article span{
+	margin-top: 5px;
 }
 #newsRojo{
 
-	width: 200px;
+	width: 350px;
+	padding-left: 100px;
+	padding-bottom: 17px;
+	border-bottom: 1px dashed rgb(200,200,200);
 }
 #newsVerde{
-	width: 300px;
+	width: 350px;
+	padding-left: 100px;
+	padding-bottom: 17px;
+	border-bottom: 1px dashed rgb(200,200,200);
 }
 #newsClaro{
-	width: 300px;
+	width: 350px;
+	padding-left: 100px;
+	padding-bottom: 17px;
+	border-bottom: 1px dashed rgb(200,200,200);
+}
+#readmore{
+	float: right;
 }
 
+#secc01art01{
+	margin-right: 70px;
+}
 
 #secc01art01 ul{
 	list-style: none;
@@ -101,6 +132,16 @@ section {
 	/*width: 20%;*/
 	background: #E4E4E4 ;
 }
+#secc03art01{
+	margin-left: -90px;
+}
+#secc03art02{
+	margin-left: 60px;
+
+}
+#secc03art03{
+	margin-left: 10px;
+}
 .letraG{
 	font-size: 2em;
 }
@@ -116,3 +157,7 @@ section {
 .colorGG{
 	color: #808080;
 }
+.colorA{
+	color:  #3366BB ;
+}
+
