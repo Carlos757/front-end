@@ -3,8 +3,9 @@ body{
 	/*s*/
 	/*1078 es requerimiento del cliente*/
 	/*border: 1px solid blue;*/
-	max-width: 2100px;
+	max-width: 1700px;
 	background: #2B2B2B;
+	margin: 0px auto;
 
 }
 header{
