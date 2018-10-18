@@ -1,12 +1,18 @@
 body{
-	
+	max-width: 1320px;
+	margin: 0px auto;
 
 }
 header{
-
+	border-bottom: 1px dashed rgb(150,150,150);
+	margin-bottom: 30px;
 }
-header input{
+header nav ul li{
 	
+	display: inline-block;
+	margin-top: 70px;
+	margin-bottom: 40px;
+	margin-right: 40px;
 
 }
 #primerSeccion {
@@ -55,6 +61,45 @@ header input{
 }
 #secc03art03{
 
+}
+#logo{
+	float: left;
+	width: 267px;
+	height: 64px;
+
+}
+#bandera{
+	float: right;
+	width: 38px;
+	height: 38px;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+#logo_rojo{
+	float: right;
+	width: 38px;
+	height: 38px;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+#mundo{
+	float: right;
+	width: 38px;
+	height: 38px;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+#go{
+	position: relative;
+	left: 710px;
+	top: 50px;
+
+}
+#buy{
+	position: relative;
+	width: 70px;
+	left: 410px;
+	top: 110px;
 }
 
 .nito{
