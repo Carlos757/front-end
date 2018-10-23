@@ -1,0 +1,60 @@
+img[alt]{
+	border: 5px solid blue;
+}
+/*imagen con atributo SRC cadena exacta*/
+img[src="img/LOGO_TEC_PNG_OK.png"]{
+	width: 400px;
+}
+/*Imagen con el atributo SRC al inicio de la cadena*/
+img[src^="img/"]{
+	width: 150px;
+}
+/*Imagen con el atributo SRC al final de la cadena*/
+img[src$="png"]{
+	width: 250px;
+}
+/*Imagen con el atributo SRC en cualquier parte de la cadena*/
+img[src*="mg/"]{
+	width: 1000px;
+}
+/*El caracter ~ indica que estos selectores estan separados por espacios*/
+/*article[class=".resaltado"] <-- es lo mismo */
+article[class~="resaltado"]{
+	border: 1px dashed blue ;
+}
+article[class~="archivo"]{
+	border: 1px dashed red ;
+}
+article[class~="ingles"]{
+	border: 5px dashed green ;
+}
+/*El caracter | (pipe) distingue las clases separadas por guiones*/
+article[class=|="ingles"]{
+	text-align: center; 
+}
+
+/*Selector secundarios.*/
+/*Seleccionar solamente las <p> que se encuentran inmediatamente despues del <div>*/
+div > p{/*solo hijos directos*/
+	color: blue;
+}
+/*Todos los elementos <p> seran seleccionados*/
+div p{
+	color: red;
+}
+/*Seleccionar solo el elemento <p> que esta inmediatamente despues del elemento <h2>*/
+h2 + p{
+	color: gray;
+}
+/*Seleccionar todos los hermanos del tipo de elemento seleccionado (Hermano general)*/
+h2 ~p{
+	color: green;
+}
+/*Poner en color rojo el texto de las secciones menos el id="Referencias"*/
+#Resumen,#Experimento,#Pruebas,#Resultados,#Conclusiones{
+	color: tomato;
+}
+/*Poner en color azul el texto de las secciones menos el id="Referencias"*/
+section:not(#Referencias){
+	color: blue;
+}
