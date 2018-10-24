@@ -15,7 +15,7 @@ img[src$="png"]{
 }
 /*Imagen con el atributo SRC en cualquier parte de la cadena*/
 img[src*="mg/"]{
-	width: 1000px;
+	width: 150px;
 }
 /*El caracter ~ indica que estos selectores estan separados por espacios*/
 /*article[class=".resaltado"] <-- es lo mismo */
@@ -58,3 +58,26 @@ h2 ~p{
 section:not(#Referencias){
 	color: blue;
 }
+/*impares*/
+li:nth-child(odd){
+	color: green;
+}
+/*pares*/
+li:nth-child(even){
+	color: blue;
+}
+/*Quinto elemento*/
+li:nth-child(5){
+	color: red;
+}
+/*ultimo*/
+li:nth-last-child(1){
+	color: purple;
+}
+p:first-line{
+	font-weight: bold;
+	color: red;
+}
+
+
+
