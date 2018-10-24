@@ -15,33 +15,45 @@ header nav ul li{
 	margin-right: 40px;
 
 }
+section {
+	/*display: inline-block;*/
+}
 #primerSeccion {
-	
+	/*display: inline-block;*/
+	/*border: 1px solid blue;*/
+	margin-bottom: -600px;
 }
 
 
 #segundaSeccion {
-
+	/*display: inline-block;*/
+	/*border: 1px solid red;*/
+	
 }
-#segundaSeccion article{
 
-}
 #terceraSeccion{
+	padding-top: 30px;
 
 }
 #terceraSeccion article{
-
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 50px;
+	width: 170px;
 }
 #terceraSeccion article span{
 
 }
 
 #secc01art01{
-
+	width: 700px;
+	/*border: 1px solid green;*/
+	border-bottom: 1px dashed rgb(150,150,150);
 }
-
 #secc01art02{
-
+	width: 700px;
+	margin-top: 30px;
+	/*border: 1px solid green;*/
 }
 #secc01art03{
 
@@ -62,8 +74,11 @@ header nav ul li{
 #secc03art03{
 
 }
+
 #logo{
 	float: left;
+	margin-top: 30px;
+	margin-left: 30px;
 	width: 267px;
 	height: 64px;
 
@@ -101,9 +116,44 @@ header nav ul li{
 	left: 410px;
 	top: 110px;
 }
+#years{
+	position: relative;
+	/*width: 500px;*/
+	bottom: 610px;
+	left: 690px;
+	z-index: 1;
+}
+#bike{
+	position: relative;
+	/*float: right;*/
+	width: 500px;
+	bottom: 580px;
+	left: 600px;
+	z-index: 0;
 
+}
+/*#about{
+	width: 30px;
+	border-bottom: 1px solid rgb(150,150,150);
+}*/
+
+/*#titulo{
+	border-bottom: 1px dashed rgb(150,150,150);
+}*/
+/*#contenido{
+	border-top: 1px dashed rgb(150,150,150);
+	padding-top: 50px;
+}*/
+.colorG{
+	color: gray;
+}
+.letraG{
+	font-size: 4.5em;
+}
 .nito{
 	font-weight: bold;
 }
-
+.colorV{
+	color: green;
+}
 
