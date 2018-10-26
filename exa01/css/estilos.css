@@ -1,0 +1,130 @@
+body{
+	max-width: 1300px;
+	margin: 0px auto;
+
+}
+header{
+	background-color: #3A3A3A;
+	padding-bottom: 20px;
+}
+header input {
+	position: relative;
+	float: right;
+	bottom: 40px;
+	right: 10px
+}
+header nav ul li{
+	margin-top: 20px;
+	display: inline-block;
+	margin-right: 30px;
+
+}
+
+#primerSeccion {
+	border: 1px solid blue;
+	padding-top: 30px;
+	padding-left: 15px;
+	margin-top: -10px;
+	background-color: #E62C85;
+
+	
+}
+#segundaSeccion {
+	border: 1px solid red;
+	background: #262626;
+	margin-bottom: -160px;
+
+}
+#terceraSeccion{
+	border: 1px solid green;
+	background-color: #EF8D25;
+	padding-left: 30px;
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+
+#site{
+	float: left;
+	padding-right: 270px;
+	padding-top: 15px;
+	padding-left: 15px;
+}
+#login,#sign{
+	color: white;
+	font-size: 20px;
+}
+#login{
+	background: #3A3A3A;
+}
+#sign{
+	background: #3EC9CB; 
+	margin-left: 15px;
+}
+
+#secc01art02{
+	position: relative;
+	left: 30px;
+	bottom: 40px;
+	text-align: center;
+	font-size: 23px;
+}
+#secc01art03{
+	position: relative;
+	float: right;
+	bottom: 60px;
+	right: 20px;
+	color: #E62C85;
+}
+#secc02art01{
+	position: relative;
+	bottom: 340px;
+	left: 40px;
+	width: 550px;
+
+}
+
+#all{
+	color: #E62C85;
+	font-size: 30px;
+	width: 375px;
+}
+
+#libros{
+	position: relative;
+	top: 400px;
+	left: 600px;
+	width: 480px;
+
+}
+#find{
+	position: relative;
+	background: #3EC9CB;
+	color: white;
+	width: 315px;
+	height: 75px;
+	font-size: 20px;
+	top: 120px;
+	right: 120px;
+}
+
+
+.letraG{
+	font-size: 2em;
+}
+.letraGG{
+	font-size: 3em;
+}
+.letraM{
+	font-size: 17px;
+}
+.nito{
+	font-weight: bold;
+}
+.colorG{
+	color: gray;
+}
+.colorB{
+	color: white;
+}
+
+
