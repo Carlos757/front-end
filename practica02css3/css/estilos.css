@@ -1,19 +1,19 @@
 body{
 	font-size: 16px; /*1em*/
-	margin: 0px auto;
-	/*1078 es requerimiento del cliente*/
+	margin: 0 auto;
+	min-width: 1078px;
 	max-width: 1078px;
-	min-height: 1078px;
-}
-header input{
-	float: right;
-	margin-right: -200px;
-	margin-top: 15px;
-	position: relative;
-
 }
 header nav{
 	margin-left: 220px;
+	/*No funciona por la mancha de pintura*/
+	/*text-align: center;*/
+}
+header input{
+	float: right;
+	margin-top: 15px;
+	margin-right: -200px;
+	position: relative;
 }
 header nav ul li{
 	border-bottom: 1px solid gray;
@@ -22,60 +22,89 @@ header nav ul li{
 	font-size: 1.8em;
 	margin-right: 15px;
 	padding-bottom: 2px;
-
+	/*text-decoration: underline;*/
 }
 #bgoffer{
-	position: relative; 
+	left: -35px;
+	position: relative;
 	top: -410px;
-	left: -30px; 
 }
-#Paint{
+#granthams{
+	margin-top:  25px;
+	margin-left: 25px;
+}
+#paint{
 	float: right;
-
 }
-#primerSeccion{
-	/*border: 1px solid blue;*/
-	margin-top: 60px;
+#primerseccion{
+	/*Tamaño de la imagen*/
 	height: 318px;
+	margin-top: 60px;
 }
-#primerSeccion article{
-	/*border:1px solid red;*/ 
+#primerseccion article{
 	display: inline-block;
 	vertical-align: top;
 }
 #secc01art01{
-	width: 61%;
 	margin-left: 30px;
+	width: 60%;
 }
 #secc01art02{
-	width: 30%;
 	margin-left: 50px;
+	width: 30%;
 }
-#secc01art02 ul  {
-	list-style: none; /*quita los puntos(vinetas) */
+#secc01art02 ul{
+	/*Quitamos viñetas (bullets)*/
+	list-style: none;
 }
-#secc01art02 ul li: before: {
-	color: #B28787;
-	content: "� "; /*--------------------------------*/
-
+#secc01art02 ul li:before{
+	content: "• ";
+	color: #b28787;
 }
-#segundaSeccion article{
+#segundaseccion article{
+	padding-right: 122px;
 	text-align: right;
-	padding-right: 130px;
 }
-#Logo{
-	margin-top: 25px;
-	margin-left: 25px;
+#terceraseccion article{
+	display: inline-block;
+	vertical-align: top;
+	width: 23%; /*100%/4 article*/
+}
+#terceraseccion article input[type="email"]{
+	border-radius: 5px;
+}
+#terceraseccion article input[type="button"]{
+	background: #8bc500;
+	border-radius: 5px;
+	color:white;
+}
+#terceraseccion article img{
+	/*Alineación vertical del texto*/
+	vertical-align: middle;
+}
+.colorazul{
+	color: #4267b3;
 }
 .colorrosa{
-	color: #FF0099;	
+	color: #FF0099;
 }
-.letragrande{
-	font-size: 3.5em;
-}
-.nito{
-	font-weight: bold;
+.colorverde{
+	color: #8bc500;
 }
 .letramediana{
 	font-size: 2em;
 }
+.nito{
+	font-weight: bold;
+}
+.letragrande{
+	font-size: 3.5em;
+}
+
+
+
+
+
+
+
+

@@ -38,7 +38,7 @@ section {
 #terceraSeccion article{
 	display: inline-block;
 	vertical-align: top;
-	padding-left: 50px;
+	margin-right: 85px;
 	width: 170px;
 }
 #terceraSeccion article span{
@@ -65,15 +65,23 @@ section {
 
 }
 #secc03art01{
-
+	border: 1px solid green;
 }
 #secc03art02{
 
-
+border: 1px solid green;
 }
 #secc03art03{
-
+border: 1px solid green;
 }
+#secc03art04{
+border: 1px solid green;
+}
+
+#secc03art05{
+border: 1px solid green;
+}
+
 
 #logo{
 	float: left;
@@ -132,10 +140,18 @@ section {
 	z-index: 0;
 
 }
-/*#about{
-	width: 30px;
+#about{
+
 	border-bottom: 1px solid rgb(150,150,150);
-}*/
+	padding-bottom: 10px;
+	padding-right: 80px;
+
+}
+#terceraSeccion ul li{
+	/*Quitamos viñetas (bullets)*/
+	list-style: none;
+	margin-left: -40px;
+}
 
 /*#titulo{
 	border-bottom: 1px dashed rgb(150,150,150);

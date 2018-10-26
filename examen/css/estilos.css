@@ -1,0 +1,36 @@
+body{
+	max-width: 1320px;
+	margin: 0px auto;
+
+}
+header{
+	
+}
+header nav ul li{
+	/*display: inline-block;*/
+
+}
+
+#primerSeccion {
+	/*border: 1px solid blue;*/
+}
+#segundaSeccion {
+	/*border: 1px solid red;*/	
+}
+#terceraSeccion{
+	/*border: 1px solid green;*/
+}
+
+/*#terceraSeccion ul li{
+	list-style: none;
+	margin-left: -40px;
+}*/
+
+.letraG{
+	font-size: 3.5em;
+}
+.nito{
+	font-weight: bold;
+}
+
+
