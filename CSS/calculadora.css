@@ -1,0 +1,21 @@
+body{
+	size: 16px;
+}
+table{
+	margin: 0 auto;
+}
+button{
+	border-radius: 5px;
+	height: 100%;
+	width: 100%;
+	font-size: 2em;
+}
+button:hover{
+	background: black;
+	color: lightgray;
+}
+input{
+	border-radius: 5px;
+	font-size: 2em;
+	text-align: right;
+}
