@@ -1,28 +1,26 @@
-window.onload function () {
+window.onload =function () {
+	var operador = ""
+	var operando = ""
+
 	var colorAmarillo = function(x){
 		x.style.background = "yellow";
 	}
-
 	var colorBlanco = function(x){
 		x.style.background = "white";
 	}
-	var	numeros function(){
-		var	operando1 document.getElementById('operando1');
-		var	operando2 document.getElementById('operando2');
-		if(operando1 == ""){
+	var	numeros = function(){	
+		var	operando1 = document.getElementById('operando1').value;
+		var	operando2 = document.getElementById('operando2').value;
+		if(operador == ""){
 			if(operando1 == "0"){
-			document.getElementById("operando1").value="";
-		}
-		document.getElementById("operando1").value+=this.value;
-		}else{
-			if(operando2 == ""){
-
-				if(operando2 == "0"){
-					document.getElementById("operando2").value="";
-				
-				}
-				document.getElementById("operando2").value+=this.value;
+				document.getElementById("operando1").value="";
 			}
+			document.getElementById("operando1").value+=this.value;
+		}else{
+			if(operando2 == "0"){
+				document.getElementById("operando2").value="";			
+			}
+				document.getElementById("operando2").value+=this.value;
 		}
 	}
 	
