@@ -1,0 +1,122 @@
+body{
+	max-width: 1300px;
+	margin: 0px auto;
+	
+}
+header{
+	background: #3A3A3A;
+}
+header input{
+	float: right;
+	height: 40px;
+	width: 90px;
+	margin-right: 20px;
+	margin-top: 15px;
+
+
+}
+header nav ul {
+	display: inline-block;
+	margin-left: 350px;
+	padding-left: 20px;
+}
+header nav ul li{
+	color: white;
+	display: inline-block;
+	padding-left: 20px;
+
+}
+
+
+#primerSeccion {
+	/*border: 1px solid blue;*/
+	background-color: #E62C85;	
+}
+#primerSeccion article {
+	display: inline-block;
+	padding: 15px 0px; 
+	width: 30%;
+	text-align: center;
+}
+#segundaSeccion {
+/*	border: 1px solid red;*/
+	background: #262626;
+
+}
+#secc02art01{
+	width: 450px;
+	padding-top: 40px ;
+	padding-left: 40px;
+	padding-bottom: 70px;
+
+}
+#terceraSeccion{
+	/*border: 1px solid green;*/
+	background-color: #EF8D25;
+	padding: 30px 30px;
+}
+#secc01art01{
+	padding-top: 10px;
+	font-size: 25px;
+	margin-left: -10px;
+
+}
+#secc01art02{
+	margin-top: 5px;
+}
+
+#site{
+	margin-left: 30px;
+	margin-top: 10px;
+
+}
+#login{
+	background: #3A3A3A;
+}
+#sign{
+	background: #3EC9CB;
+
+}
+#libros{
+	position: relative;
+	width: 500px;
+	float: right;
+	top: -480px;
+	right: 200px;
+	
+}
+#find{
+	background: #3EC9CB;
+	width: 190px;
+	height: 50px;
+	margin-top: 30px;
+	font-size: 15px;
+}
+#all{
+	width: 350px;
+	height: 50px;
+	color: #E62C85;
+	font-size: 17px;
+	margin-left: 100px;
+}
+
+.letraG{
+	font-size: 2em;
+}
+.letraGG{
+	font-size: 3em;
+}
+.letraM{
+	font-size: 20px;
+}
+.nito{
+	font-weight: bold;
+}
+.colorG{
+	color: gray;
+}
+.colorB{
+	color: white;
+}
+
+
