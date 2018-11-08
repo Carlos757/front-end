@@ -1,0 +1,19 @@
+cd desktop
+cd pw
+cd pw218309
+mkdir npmproyecto
+cd npmproyecto
+npm init
+package name: (npmproyecto) 
+version: (1.0.0) 0.0.0
+description: Aprender a instalar paquetes de node y proyectos
+entry point: (index.js) main.js
+test command: 
+git repository: 
+keywords: Inicio,node,npm,pw,rc
+author: Carlos Rios
+license: (ISC) MIT
+npm install electron --save-dev
+
+npmproyecto ccdm14$ rm -rf node_modules
+npmproyecto ccdm14$ npm install
