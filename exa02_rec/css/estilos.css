@@ -1,0 +1,104 @@
+body{
+	font-size: 16px; /*1em*/
+	max-width: 1300px;
+	/*max-height: 1550px;*/
+	margin: 0px auto;
+
+}
+header{
+	margin:0px 30px;
+	border-bottom: 4px solid black; 
+	padding-bottom: 20px;
+	margin-left: 30px;
+
+}
+header input{
+	border: 0px solid white;
+	background: white;
+	float: right;
+	margin-top: 15px;
+}
+
+#primerSeccion article{
+	/*border: 1px solid blue;*/
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 30px;
+
+}
+#primerSeccion article[id=secc01art02]{
+	
+	border-left: 4px solid black;
+	padding-left: 40px; 
+
+}
+
+#segundaSeccion {
+	/*border: 1px solid red;*/
+}
+#terceraSeccion{
+	/*border: 1px solid green;*/
+}
+#secc01art01{
+	position: relative;
+	left: 155px;
+
+}
+#secc01art02{
+	margin-left: 270px;
+}
+#lupa{
+	margin-right: 350px;
+}
+#planta{
+	width: 700px;
+	text-align: center;
+	
+}
+#indigo{
+	position: relative;
+	float: left;
+	left: 50px;
+	bottom: 370px;
+}
+#tela{
+	float: right;
+	width: 250px;
+}
+
+#persona{
+	float: right;
+	width: 250px;
+}
+#p1,#p2,#p3{
+	padding-left: 70px;
+}
+#menu,#lupa{
+	/*padding-top: 10px;*/
+	position: relative;
+	top: 13px;
+}
+
+.margen{
+	padding-left: 20px;
+}
+.letraG{
+	font-size: 2.5em;
+}
+.letraGG{
+	font-size: 2.9em;
+}
+.letraM{
+	font-size: 1.2em;
+}
+.nito{
+	font-weight: bold;
+}
+.colorG{
+	color: gray;
+}
+.colorB{
+	color: white;
+}
+
+
