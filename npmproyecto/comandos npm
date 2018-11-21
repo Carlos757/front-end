@@ -17,3 +17,9 @@ npm install electron --save-dev
 
 npmproyecto ccdm14$ rm -rf node_modules
 npmproyecto ccdm14$ npm install
+
+//Para hacer ejecutable agregar en el package.json:
+"empaqueta": "electron-packager . NombreDelArchivo --overwrite --asar" 
+
+//en el cmd:
+npm run empaqueta

@@ -44,6 +44,14 @@ var muestraUsuario = function(){
 }
 
 
+//Constantes para llamar al PDF
+const ipc=require('electron').ipcRenderer;
+const btnPDF=document.getElementById('btnPDF')
+btnPDF.addEventListener('click',function(event){
+	ipc.send('print-to-pdf')
+})
+
+
 
 
 var btnUsuario = document.getElementById('btnUsuario');
