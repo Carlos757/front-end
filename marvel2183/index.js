@@ -1,5 +1,27 @@
 
+const {BrowserWindow}=require('electron').remote
+const app =require('electron').app
+const path = require('path')
+const url = require('url')
+
 var personaje =""
+let pantallaDetalle;
+
+var btnComics=document.getElementsByClassName('btnComics')
+
+var buscaComics = function(){
+	// alert(this.value)
+	localStorage.setItem("indice",this.value);
+	localStorage.setItem("personaje",personaje)
+	// sessionStorage
+	pantallaDetalle=new BrowserWindow({width:400,height:425});
+	pantallaDetalle.loadURL(url.format({
+		pathname: path.join(__dirname,'PantallaDetalle.html'),
+		protocol: 'file',
+		slashes: true
+	}))
+
+}
 
 var	buscaPersonaje = function(){
 	personaje=document.getElementById('txtPersonaje').value;
@@ -20,12 +42,14 @@ var	buscaPersonaje = function(){
 			</article>
 			<article class="abajoDerecha">
 				<div class="txtNombre">${datos.data.results[i].name}</div>
-				<button class="btnComics" value="">Comics</button> 
+				<button class="btnComics" value="${i}">Comics</button> 
 			</article>
 			<hr>
 			<br>
-		`
-
+		 `
+		}
+		for(let i=0;i<btnComics.length;i++){
+			btnComics[i].addEventListener('click',buscaComics);
 		}
 
 		
