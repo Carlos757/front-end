@@ -1,42 +1,40 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-	<meta charset="UTF-8">
-	<title>Proyecto Monedas</title>
-	<link rel="stylesheet" href="css/estilos.css">
-	<link href="https://fonts.googleapis.com/css?family=Lato|Roboto:300" rel="stylesheet"> 
-</head>
-<body>
-	<main>
-		<article class="arriba">
-			<h1 class="titulo Lato">VITRINAS</h1>
-		
-		</article>
-		<article id="abajo" class="contenido">
-			<!-- <article class="abajoIzquierda">
-					<img src="" class="imgFoto">
-				</article>
-				<article class="abajoDerecha">
-					<div class="txtNombre"></div>
-					<button class="btnComics" value="">Comics</button> 
-				</article>
-				<hr>
-				<br> -->
-		</article>
-	</main>
-	<script>
-		require('./index.js')
-	</script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Proyecto Monedas</title>
+    <link rel="stylesheet" href="css/estilos.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto:300" rel="stylesheet"> 
+  </head>
+  <body>
+    <main>
+      <article class="arriba" id="art">
+        <h1 class="Lato titulo">VITRINAS</h1>
+        <article id="favoritos">
+          <button id="btnFavoritos">
+          	<img id="cam" src="img/rojo.png" class="btnFavoritos">
+          	<span id="fav" class="Lato">Favoritos</span>
+          </button>
+        </article>
+        
+      </article>
+
+      <article id="abajo">
+        <!--
+          <article class="abajoIzquierda">
+          	<img src="" class="imgFoto">
+          </article>
+          <article class="abajoDerecha">
+          	<div class="txtNombre"></div>
+          	<button class="btnComics" value="">Comics</button>
+          </article>
+          <hr>
+          <br>
+        -->
+      </article>
+    </main>
+    <script>
+      require("./index.js");      
+    </script>
+  </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
